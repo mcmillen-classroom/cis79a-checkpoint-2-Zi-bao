@@ -5,8 +5,10 @@
     <string name="true_button">True</string>
     <string name="false_button">False</string>
 
-    <string name="question_1">Is Zelda a boy</string>
-    <string name="question_2">In Legend of Zelda games, players usually play as Link</string>
+    <string name="next_button">Next</string>
+
+    <string name="question_1">In Legend of Zelda games, players usually play as Link</string>
+    <string name="question_2">Is Zelda a boy</string>
     <string name="question_3">Link wields the master sword</string>
     <string name="question_4">Link uses a shield</string>
     <string name="question_5">You have to defeat zelda to beat the game</string>

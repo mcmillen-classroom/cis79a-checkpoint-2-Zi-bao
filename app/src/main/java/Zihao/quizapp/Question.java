@@ -2,8 +2,8 @@ package Zihao.quizapp;
 
 public class Question
 {
-    private int mTextResID;
-    private boolean mAnswer
+    private int mTextResID ;
+    private boolean mAnswer;
 
     public Question(int textResID, boolean answer) {
         mTextResID = textResID;
@@ -11,6 +11,7 @@ public class Question
     }
 
     public int getTextResID() {
+
         return mTextResID;
     }
 
@@ -19,6 +20,7 @@ public class Question
     }
 
     public boolean getAnswer() {
+
         return mAnswer;
     }
 

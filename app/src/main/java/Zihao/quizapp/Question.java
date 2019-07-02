@@ -1,30 +1,35 @@
 package Zihao.quizapp;
 
-public class Question
-{
-    private int mTextResID ;
+public class Question {
+    private int mTextResId;
     private boolean mAnswer;
+    private int mHintTextResId;
 
-    public Question(int textResID, boolean answer) {
-        mTextResID = textResID;
+
+    public Question(int textResId, boolean answer, int hintTextResId) {
+        mTextResId = textResId;
         mAnswer = answer;
+        mHintTextResId = hintTextResId;
     }
 
-    public int getTextResID() {
-
-        return mTextResID;
+    public int getTextResId() {
+        return mTextResId;
     }
 
-    public void setTextResID(int textResID) {
-        mTextResID = textResID;
+    public void setTextResId(int textResId) {
+        mTextResId = textResId;
     }
 
     public boolean getAnswer() {
-
         return mAnswer;
     }
 
     public void setAnswer(boolean answer) {
         mAnswer = answer;
     }
+
+    public int getmHintTextResId() {
+        return mHintTextResId;
+    }
+
 }

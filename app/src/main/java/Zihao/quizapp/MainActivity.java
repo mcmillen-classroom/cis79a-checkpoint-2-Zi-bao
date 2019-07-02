@@ -52,19 +52,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        //Init an array of questions
+
         mQuestions = new Question[5];
         mIndex = 0;
         mScore = 0;
 
-        //Init each slot of the array
+
         mQuestions[0] = new Question(R.string.question_1, true,R.string.hint_1);
         mQuestions[1] = new Question(R.string.question_2, false,R.string.hint_2);
         mQuestions[2] = new Question(R.string.question_3, true,R.string.hint_3);
         mQuestions[3] = new Question(R.string.question_4, true,R.string.hint_4);
         mQuestions[4] = new Question(R.string.question_5, false,R.string.hint_5);
 
-        //go to whichever question is represented by mIndex
+
         mTextView.setText(mQuestions[mIndex].getTextResId());
         mScoreTextView.setText("Score: "+ mScore);
     }
@@ -93,18 +93,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         else if (view.getId() == R.id.next_button) {
-            //change to the next question
-            //increment the index by 1
+
             mIndex++;
             mFalsebutton.setEnabled(true);
             mTrueButton.setEnabled(true);
 
-
-
-
-            //do if statement here
-            // if the mIndex is greater than equal
-            //change text in view
 
 
 
